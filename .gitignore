@@ -1,0 +1,10 @@
+# dmrconfig is a third-party dependency, cloned locally as a build step -
+# see README.md "Requirements". It is not vendored into this repo; its own
+# source carries its own BSD-3-Clause license.
+/converter/dmrconfig/
+
+# Generated conversion output - regenerate with converter/build-rdt.js,
+# see README.md.
+*.conf
+*.img
+Baofeng/sample-converted.rdt
